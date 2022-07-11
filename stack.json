@@ -1,0 +1,17 @@
+{
+    "$schema": "https://docs.facets.cloud/schemas/stack.schema",
+    "componentVersions": {
+        "KUBERNETES": "1.19"
+    },
+    "composition": {
+        "plugins": [
+            {
+            "name": "logging_nfs"
+            }
+        ]
+    },
+    "clusterVariablesMeta": {}
+    
+
+
+}
